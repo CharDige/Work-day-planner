@@ -18,25 +18,24 @@ console.log(currentHour);
 var timeBlock = $(".time-block")
 
 timeBlock.each(function() {
-    var hourBlock = $(this).attr("id");
+    var hourBlock = parseInt($(this).attr("id"));
 
     if (hourBlock < currentHour) {
         console.log("Before");
-        timeBlock.addClass("past");
-        timeBlock.removeClass("present");
-        timeBlock.removeClass("future");
+        $(this).addClass("past");
+        $(this).removeClass("present");
+        $(this).removeClass("future");
         
     } else if (hourBlock == currentHour) {
         console.log("During");
-        timeBlock.addClass("present");
-        timeBlock.removeClass("past");
-        timeBlock.removeClass("future");
+        $(this).addClass("present");
+        $(this).removeClass("past");
+        $(this).removeClass("future");
 
     } else if (hourBlock > currentHour) {
         console.log("After");
-        timeBlock.addClass("future");
-        timeBlock.removeClass("past");
-        timeBlock.removeClass("present");
+        $(this).addClass("future");
+        $(this).removeClass("past");
+        $(this).removeClass("present");
     }
 })
-
