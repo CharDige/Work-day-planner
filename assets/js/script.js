@@ -14,3 +14,11 @@ var currentHour = moment().hour();
 
 // Testing currentHour variable
 console.log(currentHour);
+
+
+// Targeting a section test
+var timeBlock = $(".time-block")
+
+var hourBlock = timeBlock.attr("id");
+
+console.log(hourBlock);
