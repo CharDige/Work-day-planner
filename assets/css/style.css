@@ -15,10 +15,11 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
-    color: black;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    background-color: #1c7700;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #024602;
   }
   
   .description {
@@ -66,6 +67,7 @@ body {
   }
   
   .saveBtn:hover {
+    background-color: #36e900;
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
