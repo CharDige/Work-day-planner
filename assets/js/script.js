@@ -1,4 +1,4 @@
-// Current date
+// Current date through moment.js
 var currentDay = moment().format("dddd, MMMM Do");
 $("#currentDay").text(currentDay);
 
@@ -82,33 +82,30 @@ saveButtonFivePm.on("click", function() {
 });
 
 
-
-
-// Change colour based off time of the day
+// Set current hour variable to link to moment.js
 var currentHour = moment().hour();
 
-// Testing currentHour variable
-console.log(currentHour);
-
+// Set variable for each element with a time-block class
 var timeBlock = $(".time-block")
 
+// Iterate through ids within each timeBlock 
 timeBlock.each(function() {
     var hourBlock = parseInt($(this).attr("id"));
 
+    // Change class to show hours that have passed
     if (hourBlock < currentHour) {
-        console.log("Before");
         $(this).addClass("past");
         $(this).removeClass("present");
         $(this).removeClass("future");
-        
-    } else if (hourBlock == currentHour) {
-        console.log("During");
+    
+    // Change class to show hour that is current     
+    } else if (hourBlock === currentHour) {
         $(this).addClass("present");
         $(this).removeClass("past");
         $(this).removeClass("future");
 
+    // Change class to show hours that are in the future    
     } else if (hourBlock > currentHour) {
-        console.log("After");
         $(this).addClass("future");
         $(this).removeClass("past");
         $(this).removeClass("present");
