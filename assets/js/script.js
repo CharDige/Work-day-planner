@@ -8,3 +8,9 @@ var scheduleInput = $(".description");
 saveBtn.on("click", function() {
     localStorage.setItem("scheduleInput", scheduleInput.val());
 });
+
+// Change colour based off time of the day
+var currentHour = moment().hour();
+
+// Testing currentHour variable
+console.log(currentHour);
