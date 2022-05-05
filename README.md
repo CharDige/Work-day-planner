@@ -113,6 +113,4 @@ W3 Schools (2022), *jQuery removeClass() Method*, W3 Schools, https://www.w3scho
 
 ## License
 
-MIT License
-
-Copyright (C) 2022 Charlotte Dige
+[MIT License Copyright (C) 2022 Charlotte Dige](./LICENSE)
