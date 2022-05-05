@@ -4,7 +4,11 @@
 
 This project required the creation of a work day scheduler. It included starter HTML and CSS code. A script file needed to be created using jQuery instead of JavaScript.
 
-The user story was:
+> The final project can be found at: https://chardige.github.io/Work-day-scheduler/
+
+> The final HTML, CSS and Script can be found at: https://github.com/CharDige/Work-day-scheduler
+
+## User story
 
 ```
 AS AN employee with a busy schedule
@@ -12,7 +16,7 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
-The acceptance criteria was:
+## Acceptance criteria
 
 ```
 GIVEN I am using a daily planner to create a schedule
@@ -32,15 +36,15 @@ THEN the saved events persist
 
 It was required to use a date utility library to work with date and time. For this project, [Moment.js](https://momentjs.com/) was used.
 
-The project also uses:
+## Technologies used
 
 - [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 - [Font Awesome Icons](https://fontawesome.com/icons)
 - [Google Fonts](https://fonts.google.com/)
-
-> The final project can be found at: https://chardige.github.io/Work-day-scheduler/
-
-> The final HTML, CSS and Script can be found at: https://github.com/CharDige/Work-day-scheduler
+- [Moment.js](https://momentjs.com/)
+- [jQuery](https://jquery.com/)
+- HTML
+- CSS
 
 ## The process -- how I approached this project
 
@@ -75,9 +79,9 @@ I mapped out my process by breaking up the project into small steps. For this, I
 ## Final
 ![Final functionality of work day scheduler](./images/work-scheduler-functionality.gif)
 
-This can also be viewed at this link: https://chardige.github.io/Work-day-scheduler/
+> The final project can be found at: https://chardige.github.io/Work-day-scheduler/
 
-And, the HTML, CSS and Script can be viewed in the GitHub repository: https://github.com/CharDige/Work-day-scheduler
+> The final HTML, CSS and Script can be found at: https://github.com/CharDige/Work-day-scheduler
 
 ## Challenges and what I learnt
 
